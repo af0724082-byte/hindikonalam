@@ -26,11 +26,6 @@ body{
   box-shadow: 0 0 15px rgba(255, 71, 87, 0.7);
 }
 
-nav{
-    display: inline-block;
-    padding: 10px 10px;
-}
-
 .center-container{
     display: flex;
     flex-direction: column;
@@ -73,13 +68,6 @@ nav{
       margin-right: 2px;
       animation: pop 1s ease;
     }
-
-.container {
-  display: flex;
-  justify-content: center;  
-  align-items: center;     
-  height: 100vh;            
-}
 
 .section{
     padding: 9rem 1rem;
@@ -134,7 +122,4 @@ p{
 p u{
     color: rgb(0, 0, 0);
     font-weight: bold;
-
 }
-
-
