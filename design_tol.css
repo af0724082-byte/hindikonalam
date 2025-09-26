@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-      background: #e2bcbc;
-      line-height: 0;
+    background: #e2bcbc;
+    color: rgb(255, 255, 255);
+    line-height: 0;
 }
 
 #special-section {
@@ -143,6 +144,7 @@ img{
     height: 150px;
 }
 }
+
 
 
 
