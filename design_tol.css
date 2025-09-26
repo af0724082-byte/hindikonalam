@@ -5,6 +5,7 @@
 }
 body{
       background: #e2bcbc;
+      line-height: 0;
 }
 
 #special-section {
@@ -142,6 +143,7 @@ img{
     height: 150px;
 }
 }
+
 
 
 
