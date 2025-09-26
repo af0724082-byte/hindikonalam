@@ -167,8 +167,8 @@ nav{
       opacity: 0.8; /* hover effect */
     }
 img{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
 }
 
 p{
@@ -183,3 +183,4 @@ p u{
     font-weight: bold;
 
 }
+
