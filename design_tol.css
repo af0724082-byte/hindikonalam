@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    min-height: 100vh;
-    color: beige;
-    margin: 0;
+      padding: 30px;
+      background: #e2bcbc;
 }
 
 #special-section {
@@ -146,4 +143,5 @@ img{
     height: 150px;
 }
 }
+
 
