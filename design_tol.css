@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    display: flex;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
@@ -108,8 +109,10 @@ body{
 }
 
 img{
-    width: 400px;
-    height: 300px;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 15px;
 }
 
 p{
@@ -123,3 +126,4 @@ p u{
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
