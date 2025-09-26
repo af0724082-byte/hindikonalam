@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#special-section {
+  border: 5px solid #ff4757;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 71, 87, 0.7);
+}
+
+#special-yis {
+  border: 5px solid #d64753;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 71, 87, 0.7);
+}
+
+nav{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.center-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+    .heart {
+      position: fixed;
+      bottom: -50px;
+      font-size: 24px;
+      color: red;
+      animation: floatUp 5s linear forwards;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+    body {
+      font-family: "Georgia", serif;
+      padding: 50px;
+      background: #e2bcbc;
+    }
+
+    p::first-letter {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: darkred;
+      float: fixed;
+      margin-right: 2px;
+      animation: pop 1s ease;
+    }
+
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;            
+}
+
+.section{
+    padding: 9rem 1rem;
+    text-align: center;
+    margin: 30px auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.my-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px 30px;
+    font-size: 18px;          
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button {
+    background-color: #f5a0f1;
+    color: rgb(0, 0, 0);
+    padding: 25px 30px;
+    font-size: 18px;          
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-container {
+      display: flex;
+      gap: 30px;           
+      justify-content: center; 
+      margin-top: 20px;
+    }
+
+    .btn-container button {
+      flex: 1;               
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .btn-yes {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px 30px;
+    font-size: 18px;          
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    .btn-no {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px 30px;
+    font-size: 18px;          
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    .btn-container button:hover {
+      opacity: 0.8; /* hover effect */
+    }
+img{
+    width: 400px;
+    height: 300px;
+}
+
+p{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+p u{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
