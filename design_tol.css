@@ -7,6 +7,7 @@ body{
     background-color: rgb(255, 255, 255);
     justify-content: center;
     min-height: 100vh;
+    color: beige;
     margin: 0;
 }
 
@@ -106,7 +107,6 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 img{
     width: 400px;
     height: 300px;
@@ -123,6 +123,3 @@ p u{
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
-
-
-
