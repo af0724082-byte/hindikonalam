@@ -70,6 +70,17 @@ body{
       animation: pop 1s ease;
     }
 
+nav{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: beige;
+    padding: 25px 15px;
+    font-size: 1.2rem;
+
 .section{
     padding: 9rem 1rem;
     text-align: center;
@@ -124,3 +135,20 @@ p u{
     font-weight: bold;
 }
 
+@media(max-width: 768px){
+    .section{
+        width:50%;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+nav a{
+    flex-direction: column;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+}
