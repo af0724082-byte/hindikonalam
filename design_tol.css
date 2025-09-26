@@ -61,7 +61,7 @@ nav{
 
     body {
       font-family: "Georgia", serif;
-      padding: 50px;
+      padding: 40px;
       background: #e2bcbc;
     }
 
@@ -94,7 +94,7 @@ nav{
 .my-button {
     background-color: #4CAF50;
     color: white;
-    padding: 25px 30px;
+    padding: 20px 20px;
     font-size: 18px;          
     font-family: 'Arial', sans-serif; 
     text-align: center;
@@ -108,7 +108,7 @@ nav{
 .button {
     background-color: #f5a0f1;
     color: rgb(0, 0, 0);
-    padding: 25px 30px;
+    padding: 20px 20px;
     font-size: 18px;          
     font-family: 'Arial', sans-serif; 
     text-align: center;
@@ -119,56 +119,9 @@ nav{
     transition: background-color 0.3s ease;
 }
 
-.btn-container {
-      display: flex;
-      gap: 30px;           
-      justify-content: center; 
-      margin-top: 20px;
-    }
-
-    .btn-container button {
-      flex: 1;               
-      padding: 12px;
-      font-size: 16px;
-      cursor: pointer;
-      border: none;
-      border-radius: 6px;
-    }
-
-    .btn-yes {
-    background-color: #4CAF50;
-    color: white;
-    padding: 25px 30px;
-    font-size: 18px;          
-    font-family: 'Arial', sans-serif; 
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    }
-
-    .btn-no {
-    background-color: #4CAF50;
-    color: white;
-    padding: 25px 30px;
-    font-size: 18px;          
-    font-family: 'Arial', sans-serif; 
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    }
-
-    .btn-container button:hover {
-      opacity: 0.8; /* hover effect */
-    }
 img{
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
 }
 
 p{
@@ -183,4 +136,5 @@ p u{
     font-weight: bold;
 
 }
+
 
